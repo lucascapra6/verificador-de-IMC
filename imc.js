@@ -87,6 +87,9 @@ const showRecomendations = () => {
     const height = getHeight()
     const sex = getSex()
     const person = new Person(weight, height, sex)
+    console.log(weight)
+    console.log(height)
+    console.log(sex)
     return person.showRecomendations()
 }
 
