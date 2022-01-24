@@ -77,8 +77,6 @@ const getImc = () => {
     const weight = getWeight()
     const height = getHeight()
     const person = new Person(weight, height)
-    console.log(weight)
-    console.log(height)
     return person.getImc()
 }
 
