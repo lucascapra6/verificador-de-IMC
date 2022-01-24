@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule seu IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de IMC</h1>
+        <h2>Calcule seu IMC e descubra se você está no peso adequado</h2>
+    </header>
+    
+    <section>
+      <div >
+          <p>
+              Digite seu peso(kg) 
+              <input type="number" id="weight">
+          </p>
+          <p> Digite sua altura(cm)
+              <input type="number" id="height">
+          </p> 
+          <p>Selecione seu sexo
+              <input type="radio" name="radsex" id="masc" checked>
+              <label for="masc">Masculino</label>
+              <input type="radio" name="radsex" id="fem">
+              <label for="fem">Feminino</label>
+          </p>
+          <input type="button" value="Calcular IMC" onclick="getImc()"> <br> <br>
+          <input type="button" value="Mostrar Recomendações" onclick="showRecomendations()"> 
+          <button onclick="cleanScreen()">Limpar</button>
+    </section>
+    <div><strong> Seu IMC é:</strong></div>
+    <div id="result"></div>
+    <div id="recomendations"></div>
+    <img src="" alt="">
+    <footer>
+        By Lucas de Capra
+        
+    </footer>
+
+</body>
+</html>
+<script src="imc.js"></script>

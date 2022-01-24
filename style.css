@@ -1,0 +1,37 @@
+body {
+    background-image: linear-gradient(to right, #F2D49B, #F2CFBB, #D99E89) ;
+    text-align: center;
+}
+header {
+    color: #262520;
+
+}
+section {
+    color:  #262520;
+    margin: auto;
+    height: 180px;
+    width: 500px;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+footer {
+    margin-top: 30px;
+}
+img {
+    border-radius: 100px;
+    
+}
+#result {
+    margin: auto;
+    font-size: x-large;
+    background-color: #d99e89bd;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px ;
+}
+#recomendations {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-bottom: 20px;
+    color: #262520;
+}
