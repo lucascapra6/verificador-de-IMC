@@ -1,3 +1,3 @@
 # verificador-de-IMC
 Vanilla JS, CSS, HTML
-Meu primeiro projeto utilizando as tecnologias supracitadas.
+Meu primeiro projeto utilizando as tecnologias anteriormente citadas.
